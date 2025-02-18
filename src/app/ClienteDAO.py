@@ -22,4 +22,5 @@ def put_cliente(id: int, corpo: Cliente):
     return {"msg": "put executado", "id":id, "nome": corpo.nome, "cpf": corpo.cpf, "telefone": corpo.telefone}, 200
 
 @router.delete("/cliente/{id}", tags=["Cliente"])
-def delete_cliente(id: int):return {"msg": "delete executado", "id":id}, 200
+def delete_cliente(id: int):
+    return {"msg": "delete executado", "id":id}, 200
