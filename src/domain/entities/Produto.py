@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-#from fastapi import UploadFile, File
+#Mateus Zancheta Falcão
 
 class Produto(BaseModel):
     id_produto: int = None
