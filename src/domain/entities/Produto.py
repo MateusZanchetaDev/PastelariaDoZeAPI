@@ -6,4 +6,4 @@ class Produto(BaseModel):
     nome: str
     descricao: str = None
     valor_unitario: float
-    foto: str = None
+    foto: bytes = None
