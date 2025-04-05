@@ -31,8 +31,8 @@ mdurl==0.1.2
 orjson==3.10.15
 passlib==1.7.4
 priority==2.0.0
-pyasn1==0.6.1
-pyasn1_modules==0.4.2
+pyasn1==0.4.8
+pyasn1_modules==0.2.8
 pycparser==2.22
 pydantic==2.10.6
 pydantic-extra-types==2.10.2
